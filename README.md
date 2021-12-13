@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+See the current build [here](https://s-spence.github.io/Interview_Project/).
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
