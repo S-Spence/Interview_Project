@@ -1,4 +1,4 @@
-<hi>Project One: Responsive UI</h1>
+<h1>Project One: Responsive UI</h1>
 </br>
 See the current build <a href="https://s-spence.github.io/Interview_Project/">here</a>.
 </br>
