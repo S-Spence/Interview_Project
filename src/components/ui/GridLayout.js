@@ -4,7 +4,7 @@ import css from "./GridLayout.module.css";
 function GridLayout(props) {
   return (
     <div>
-      <div className={css.title}>
+      <div>
         <h1>Cards</h1>
       </div>
       <div className={css.container}>

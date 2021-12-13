@@ -4,13 +4,36 @@ body {
   padding-top: 50px;
   padding-bottom: 200px;
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
   font-family: "Open Sans", sans-serif;
   background-color: white;
   box-sizing: border-box;
-  padding-left: 50px;
-  padding-right: 50px;
-  min-height: 100%;
+  max-width: 1080px;
+  margin: 0 auto !important;
+  float: none !important;
+  overflow: auto;
+}
+@media only screen and (device-width: 768px) {
+  /* default iPad screens */
+  body {
+    max-width: 100%;
+  }
+}
+
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */
+  body {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
+  body {
+    max-width: 100%;
+  }
 }
 
 header {
