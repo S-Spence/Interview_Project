@@ -43,3 +43,8 @@
     border-radius: 50%;
   }
 
+  .actions button:hover,
+  .actions button:active {
+    background-color: lightblue;
+  }
+
