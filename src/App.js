@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import GridLayout from "./components/ui/GridLayout";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="Project 2">
+      <header className="Project 2">
+        Challenge 2
       </header>
+        <h1>Cards</h1>
+        <GridLayout/>
+      <footer>
+        <div className="circle" />
+        <div className="triangle" />
+        <div className="square" />
+      </footer>
     </div>
   );
 }
