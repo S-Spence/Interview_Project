@@ -1,7 +1,7 @@
-import css from "./Card.module.css";
-import GradientImg from "./GradientImg.png";
+import css from "../../styles/Card.module.css";
+import GradientImg from "../../assets/GradientImg.png";
 
-function Card() {
+const Card = () => {
   // Add state handling for on button click here. Will on button edit the card?
 
   // Note: Could pass props to the card to make it more reuasble as the program grows.

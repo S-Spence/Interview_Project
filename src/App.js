@@ -1,6 +1,6 @@
 import GridLayout from "./components/ui/GridLayout";
 
-function App() {
+const App = () => {
   
   return (
     <div className="Project 2">

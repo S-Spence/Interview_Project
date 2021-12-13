@@ -1,7 +1,7 @@
 import Card from "./Card";
-import css from "./GridLayout.module.css";
+import css from "../../styles/GridLayout.module.css";
 
-function GridLayout(props) {
+const GridLayout = () => {
   return (
     <div>
       <div>
@@ -14,9 +14,12 @@ function GridLayout(props) {
         <Card />
         <Card />
         <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   );
-}
+};
 
 export default GridLayout;

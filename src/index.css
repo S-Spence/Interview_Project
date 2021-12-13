@@ -17,22 +17,22 @@ body {
 @media only screen and (device-width: 768px) {
   /* default iPad screens */
   body {
-    max-width: 100%;
+    max-width: 80%;
   }
 }
 
 /* different techniques for iPad screening */
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-device-width: 400px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* For portrait layouts only */
   body {
-    max-width: 100%;
+    max-width: 80%;
   }
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 400px) and (max-device-width: 1024px) and (orientation: landscape) {
   /* For landscape layouts only */
   body {
-    max-width: 100%;
+    max-width: 80%;
   }
 }
 
