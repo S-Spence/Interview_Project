@@ -1,7 +1,6 @@
 import css from "./Card.module.css";
 import GradientImg from "./GradientImg.png";
 
-
 function Card() {
   // Add state handling for on button click here. Will on button edit the card?
 
