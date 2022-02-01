@@ -21,11 +21,18 @@
   float: left;
   margin-left: 30px;
 }
+
+.content h3 {
+  font-size: 20px;
+}
+
 .content p {
   background: lightgrey;
   text-align: center;
-  border-radius: 10%;
+  border-radius: 5%;
+  font-weight: bold;
 }
+
 .actions {
   padding: 1.5rem;
   float: right;
@@ -42,5 +49,37 @@
 
 .actions button:hover,
 .actions button:active {
-  background-color: lightblue;
+  background-color: #B65FCF;
+  border-color: #B65FCF;
+}
+
+@media screen and (max-width:480px){
+  .card {
+    display: flex;
+  }
+
+  .image {
+    width: 50%;
+  }
+  .image img {
+    height: 100%;
+    justify-content: flex-start;
+  }
+
+  .content {
+    float: right;
+    padding-top: 20px;
+    
+  }
+
+  .content h3 {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .actions {
+    padding: 1.5rem;
+    float: right;
+    padding-top: 50px;
+  }
 }

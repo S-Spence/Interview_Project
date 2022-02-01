@@ -4,14 +4,13 @@ body {
   padding-top: 50px;
   padding-bottom: 200px;
   display: flex;
-  display: -webkit-flex;
   flex-direction: column;
   font-family: "Open Sans", sans-serif;
   background-color: white;
   box-sizing: border-box;
   max-width: 1080px;
-  margin: 0 auto !important;
-  float: none !important;
+  margin: 0 auto;
+  float: none;
   overflow: auto;
 }
 @media only screen and (device-width: 768px) {

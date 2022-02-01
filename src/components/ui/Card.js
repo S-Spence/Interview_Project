@@ -1,10 +1,11 @@
 import css from "../../styles/Card.module.css";
 import GradientImg from "../../assets/GradientImg.png";
+import 'bootstrap';
 
 const Card = () => {
-  // Add state handling for on button click here. Will on button edit the card?
 
   // Note: Could pass props to the card to make it more reuasble as the program grows.
+
   return (
     <div className={css.card}>
       <div className={css.image}>
@@ -20,5 +21,6 @@ const Card = () => {
     </div>
   );
 }
+
 
 export default Card;
