@@ -1,21 +1,14 @@
 {
   "files": {
-    "main.css": "/Interview_Project/static/css/main.43657414.chunk.css",
-    "main.js": "/Interview_Project/static/js/main.3660bd56.chunk.js",
-    "main.js.map": "/Interview_Project/static/js/main.3660bd56.chunk.js.map",
-    "runtime-main.js": "/Interview_Project/static/js/runtime-main.68aef0a6.js",
-    "runtime-main.js.map": "/Interview_Project/static/js/runtime-main.68aef0a6.js.map",
-    "static/js/2.3aa397c8.chunk.js": "/Interview_Project/static/js/2.3aa397c8.chunk.js",
-    "static/js/2.3aa397c8.chunk.js.map": "/Interview_Project/static/js/2.3aa397c8.chunk.js.map",
+    "main.css": "/Interview_Project/static/css/main.46a2551d.css",
+    "main.js": "/Interview_Project/static/js/main.50cbda23.js",
+    "static/media/GradientImg.png": "/Interview_Project/static/media/GradientImg.b38b963fbb4af5b33cd2.png",
     "index.html": "/Interview_Project/index.html",
-    "static/css/main.43657414.chunk.css.map": "/Interview_Project/static/css/main.43657414.chunk.css.map",
-    "static/js/2.3aa397c8.chunk.js.LICENSE.txt": "/Interview_Project/static/js/2.3aa397c8.chunk.js.LICENSE.txt",
-    "static/media/GradientImg.b38b963f.png": "/Interview_Project/static/media/GradientImg.b38b963f.png"
+    "main.46a2551d.css.map": "/Interview_Project/static/css/main.46a2551d.css.map",
+    "main.50cbda23.js.map": "/Interview_Project/static/js/main.50cbda23.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.68aef0a6.js",
-    "static/js/2.3aa397c8.chunk.js",
-    "static/css/main.43657414.chunk.css",
-    "static/js/main.3660bd56.chunk.js"
+    "static/css/main.46a2551d.css",
+    "static/js/main.50cbda23.js"
   ]
 }
