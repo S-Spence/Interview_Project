@@ -1,13 +1,14 @@
 import Card from "./Card";
-import css from "../../styles/GridLayout.module.css";
+import "../../styles/GridLayout.css";
 
 const GridLayout = () => {
+  // Return grid
   return (
     <div>
       <div>
         <h1>Cards</h1>
       </div>
-      <div className={css.container}>
+      <div className="container">
         <Card />
         <Card />
         <Card />
