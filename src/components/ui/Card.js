@@ -1,6 +1,5 @@
 import css from "../../styles/Card.module.css";
 import GradientImg from "../../assets/GradientImg.png";
-import 'bootstrap';
 
 const Card = () => {
 
